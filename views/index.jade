@@ -1,0 +1,12 @@
+extends layout
+
+block main-visual
+  .jumbotron.masthead
+    .container
+      h1#logo= title
+      p #{title}
+
+block content
+  div.location-bar
+    p
+      a(href='http://www.google.co.jp', target="_blank") google
